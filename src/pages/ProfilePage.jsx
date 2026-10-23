@@ -1,21 +1,21 @@
-import { useEffect, useState } from "react";
-import { Navigate, useParams } from "react-router-dom";
-import AlbumModal from "../components/AlbumModal.jsx";
-import { teamMembers } from "../data/teamMembers.js";
+import { useEffect, useState } from 'react'
+import { Navigate, useParams } from 'react-router-dom'
+import AlbumModal from '../components/AlbumModal.jsx'
+import { teamMembers } from '../data/teamMembers.js'
 
 function ProfilePage() {
-  const { memberId } = useParams();
-  const member = teamMembers.find((teamMember) => teamMember.id === memberId);
-  const [highlightedSkill, setHighlightedSkill] = useState(0);
-  const [selectedAlbum, setSelectedAlbum] = useState(null);
+  const { memberId } = useParams()
+  const member = teamMembers.find((teamMember) => teamMember.id === memberId)
+  const [highlightedSkill, setHighlightedSkill] = useState(0)
+  const [selectedAlbum, setSelectedAlbum] = useState(null)
 
   useEffect(() => {
-    setHighlightedSkill(0);
-    setSelectedAlbum(null);
-  }, [memberId]);
+    setHighlightedSkill(0)
+    setSelectedAlbum(null)
+  }, [memberId])
 
   if (!member) {
-    return <Navigate to="/" replace />;
+    return <Navigate to="/" replace />
   }
 
   return (
@@ -36,14 +36,9 @@ function ProfilePage() {
           <p className="kicker">{member.className}</p>
           <h1>{member.name}</h1>
           <p className="subtitle">
-            {member.city} | {member.age ? `${member.age} años` : "Edad pendiente"}
+            {member.city} | {member.age ? `${member.age} años` : 'Edad pendiente'}
           </p>
-          <a
-            className="back-link"
-            href={member.github}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="back-link" href={member.github} target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </div>
@@ -57,7 +52,7 @@ function ProfilePage() {
               <li key={skill.name}>
                 <button
                   className={`skill-item skill-button${
-                    index === highlightedSkill ? " is-highlighted" : ""
+                    index === highlightedSkill ? ' is-highlighted' : ''
                   }`}
                   type="button"
                   aria-pressed={index === highlightedSkill}
@@ -68,9 +63,7 @@ function ProfilePage() {
               </li>
             ))}
           </ul>
-          <p className="description-text">
-            {member.skills[highlightedSkill]?.description}
-          </p>
+          <p className="description-text">{member.skills[highlightedSkill]?.description}</p>
         </section>
 
         <section className="window profile-panel">
@@ -109,14 +102,9 @@ function ProfilePage() {
         </section>
       </div>
 
-      {selectedAlbum && (
-        <AlbumModal
-          album={selectedAlbum}
-          onClose={() => setSelectedAlbum(null)}
-        />
-      )}
+      {selectedAlbum && <AlbumModal album={selectedAlbum} onClose={() => setSelectedAlbum(null)} />}
     </>
-  );
+  )
 }
 
-export default ProfilePage;
+export default ProfilePage

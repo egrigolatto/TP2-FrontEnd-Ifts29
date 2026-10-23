@@ -1,21 +1,21 @@
-import { useEffect } from "react";
+import { useEffect } from 'react'
 
 function AlbumModal({ album, onClose }) {
   useEffect(() => {
     const closeOnEscape = (event) => {
-      if (event.key === "Escape") {
-        onClose();
+      if (event.key === 'Escape') {
+        onClose()
       }
-    };
+    }
 
-    document.addEventListener("keydown", closeOnEscape);
-    document.body.classList.add("modal-open");
+    document.addEventListener('keydown', closeOnEscape)
+    document.body.classList.add('modal-open')
 
     return () => {
-      document.removeEventListener("keydown", closeOnEscape);
-      document.body.classList.remove("modal-open");
-    };
-  }, [onClose]);
+      document.removeEventListener('keydown', closeOnEscape)
+      document.body.classList.remove('modal-open')
+    }
+  }, [onClose])
 
   return (
     <div
@@ -23,7 +23,7 @@ function AlbumModal({ album, onClose }) {
       role="presentation"
       onClick={(event) => {
         if (event.target === event.currentTarget) {
-          onClose();
+          onClose()
         }
       }}
     >
@@ -50,7 +50,7 @@ function AlbumModal({ album, onClose }) {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default AlbumModal;
+export default AlbumModal

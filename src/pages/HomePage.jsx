@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import { teamMembers } from "../data/teamMembers.js";
+import { Link } from 'react-router-dom'
+import { teamMembers } from '../data/teamMembers.js'
 
 function HomePage() {
   return (
@@ -8,9 +8,9 @@ function HomePage() {
         <p className="kicker">RPG MAKER STYLE</p>
         <h1>Grupo 28 - Menú de Equipo</h1>
         <p className="subtitle">
-          Presentamos al equipo de Desarrollo Front-End: un party de cinco
-          integrantes listos para construir interfaces claras, responsivas y con
-          estilo de juego. Elegí un personaje para conocer su perfil.
+          Presentamos al equipo de Desarrollo Front-End: un party de cinco integrantes listos para
+          construir interfaces claras, responsivas y con estilo de juego. Elegí un personaje para
+          conocer su perfil.
         </p>
       </header>
 
@@ -24,13 +24,7 @@ function HomePage() {
                 key={member.id}
               >
                 <div className="party-avatar" aria-hidden="true">
-                  <img
-                    src={member.avatar}
-                    alt=""
-                    className="avatar-img"
-                    width="56"
-                    height="56"
-                  />
+                  <img src={member.avatar} alt="" className="avatar-img" width="56" height="56" />
                 </div>
                 <div>
                   <p className="party-name">{member.name}</p>
@@ -45,7 +39,7 @@ function HomePage() {
         </div>
       </section>
     </div>
-  );
+  )
 }
 
-export default HomePage;
+export default HomePage

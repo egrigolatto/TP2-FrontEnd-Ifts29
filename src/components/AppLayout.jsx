@@ -1,11 +1,11 @@
-import { useState } from "react";
-import { Outlet } from "react-router-dom";
-import Sidebar from "./Sidebar.jsx";
+import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
+import Sidebar from './Sidebar.jsx'
 
 function AppLayout() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false)
 
-  const closeSidebar = () => setSidebarOpen(false);
+  const closeSidebar = () => setSidebarOpen(false)
 
   return (
     <div className="app-shell">
@@ -16,7 +16,7 @@ function AppLayout() {
         aria-controls="team-sidebar"
         onClick={() => setSidebarOpen(!sidebarOpen)}
       >
-        {sidebarOpen ? "Cerrar menú" : "Menú"}
+        {sidebarOpen ? 'Cerrar menú' : 'Menú'}
       </button>
       {sidebarOpen && (
         <button
@@ -33,7 +33,7 @@ function AppLayout() {
         </div>
       </main>
     </div>
-  );
+  )
 }
 
-export default AppLayout;
+export default AppLayout

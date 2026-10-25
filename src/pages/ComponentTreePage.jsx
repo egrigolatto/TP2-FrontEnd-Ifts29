@@ -55,6 +55,10 @@ const componentTree = {
                                           label: 'BitacoraPage (/bitacora)',
                                         },
                                         {
+                                          id: 'component-tree-page',
+                                          label: 'ComponentTreePage (/arbol)',
+                                        },
+                                        {
                                           id: 'resources-page',
                                           label: 'ResourcesPage (/recursos)',
                                         },

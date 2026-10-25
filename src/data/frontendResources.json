@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "category": "Frameworks y bibliotecas",
+    "description": "Biblioteca para crear interfaces de usuario a partir de componentes reutilizables.",
+    "url": "https://react.dev/"
+  },
+  {
+    "id": 2,
+    "name": "React Router",
+    "category": "Frameworks y bibliotecas",
+    "description": "Herramienta para gestionar rutas y navegación en aplicaciones React.",
+    "url": "https://reactrouter.com/"
+  },
+  {
+    "id": 3,
+    "name": "Vite",
+    "category": "Herramientas de desarrollo",
+    "description": "Servidor de desarrollo y herramienta de compilación para proyectos web modernos.",
+    "url": "https://vite.dev/"
+  },
+  {
+    "id": 4,
+    "name": "MDN Web Docs",
+    "category": "Documentación",
+    "description": "Documentación y guías de referencia para tecnologías abiertas de la web.",
+    "url": "https://developer.mozilla.org/"
+  },
+  {
+    "id": 5,
+    "name": "JavaScript",
+    "category": "Lenguajes y estándares",
+    "description": "Lenguaje de programación utilizado para agregar comportamiento a las interfaces web.",
+    "url": "https://developer.mozilla.org/docs/Web/JavaScript"
+  },
+  {
+    "id": 6,
+    "name": "HTML",
+    "category": "Lenguajes y estándares",
+    "description": "Lenguaje de marcado para estructurar el contenido de una página web.",
+    "url": "https://developer.mozilla.org/docs/Web/HTML"
+  },
+  {
+    "id": 7,
+    "name": "CSS",
+    "category": "Lenguajes y estándares",
+    "description": "Lenguaje de estilos para definir la presentación y el diseño de páginas web.",
+    "url": "https://developer.mozilla.org/docs/Web/CSS"
+  },
+  {
+    "id": 8,
+    "name": "Git",
+    "category": "Herramientas de desarrollo",
+    "description": "Sistema de control de versiones distribuido para registrar y compartir cambios.",
+    "url": "https://git-scm.com/"
+  },
+  {
+    "id": 9,
+    "name": "GitHub",
+    "category": "Herramientas de desarrollo",
+    "description": "Plataforma para alojar repositorios y colaborar en proyectos de software.",
+    "url": "https://github.com/"
+  },
+  {
+    "id": 10,
+    "name": "Figma",
+    "category": "Diseño y accesibilidad",
+    "description": "Herramienta colaborativa para diseñar interfaces y crear prototipos.",
+    "url": "https://www.figma.com/"
+  },
+  {
+    "id": 11,
+    "name": "WebAIM Contrast Checker",
+    "category": "Diseño y accesibilidad",
+    "description": "Verificador del contraste entre colores para evaluar la legibilidad del contenido.",
+    "url": "https://webaim.org/resources/contrastchecker/"
+  },
+  {
+    "id": 12,
+    "name": "WAI-ARIA Authoring Practices",
+    "category": "Diseño y accesibilidad",
+    "description": "Patrones y recomendaciones para crear componentes accesibles con tecnologías de asistencia.",
+    "url": "https://www.w3.org/WAI/ARIA/apg/"
+  },
+  {
+    "id": 16,
+    "name": "npm",
+    "category": "Herramientas de desarrollo",
+    "description": "Gestor de paquetes y scripts para proyectos JavaScript.",
+    "url": "https://www.npmjs.com/"
+  },
+  {
+    "id": 17,
+    "name": "Node.js",
+    "category": "Herramientas de desarrollo",
+    "description": "Entorno de ejecución que permite ejecutar JavaScript fuera del navegador.",
+    "url": "https://nodejs.org/"
+  },
+  {
+    "id": 18,
+    "name": "Google Fonts",
+    "category": "Diseño y accesibilidad",
+    "description": "Catálogo de tipografías web de código abierto para incorporar en interfaces.",
+    "url": "https://fonts.google.com/"
+  },
+  {
+    "id": 19,
+    "name": "Can I use",
+    "category": "Documentación",
+    "description": "Referencia de compatibilidad de funcionalidades web entre navegadores.",
+    "url": "https://caniuse.com/"
+  },
+  {
+    "id": 20,
+    "name": "Vercel",
+    "category": "Publicación",
+    "description": "Plataforma para publicar aplicaciones web y automatizar despliegues desde repositorios.",
+    "url": "https://vercel.com/"
+  },
+  {
+    "id": 22,
+    "name": "JSON",
+    "category": "Lenguajes y estándares",
+    "description": "Formato de texto ligero para representar e intercambiar datos estructurados.",
+    "url": "https://www.json.org/json-en.html"
+  },
+  {
+    "id": 23,
+    "name": "Fetch API",
+    "category": "Lenguajes y estándares",
+    "description": "Interfaz del navegador para realizar solicitudes HTTP y consumir recursos.",
+    "url": "https://developer.mozilla.org/docs/Web/API/Fetch_API"
+  },
+  {
+    "id": 24,
+    "name": "SWAPI",
+    "category": "APIs públicas",
+    "description": "API pública de Star Wars con información sobre películas, personajes, planetas y naves.",
+    "url": "https://swapi.dev/api/"
+  }
+]

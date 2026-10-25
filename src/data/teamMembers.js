@@ -38,7 +38,7 @@ export const teamMembers = [
       {
         name: 'Seru Giran - Peperina',
         portada: 'img/albums/Peperina.png',
-        youtubeUrl: 'https://www.youtube.com/embed/SXfZwfAh8iM?si=L_LxpHkoajNUKilN',
+        youtubeUrl: 'https://www.youtube.com/embed/H9l6hlKO3lI?si=lxP3RBp7dpXyO5bT',
       },
       {
         name: 'Soda Stereo - Dynamo',
@@ -182,7 +182,7 @@ export const teamMembers = [
       {
         name: 'Aquelarre - Siesta',
         portada: 'img/albums/Siesta.png',
-        youtubeUrl: 'https://www.youtube.com/embed/lDP1eawwWx8?si=7E_Hvc_eTH33vH1F',
+        youtubeUrl: 'https://www.youtube.com/embed/f6MEDN2k-eQ?si=G1OC3jlAI8slHnG5',
       },
       {
         name: 'RHCP - Californication',

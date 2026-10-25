@@ -6,7 +6,7 @@ Aplicación web del Grupo 28 desarrollada en React con una estética inspirada e
 
 ## Sitio publicado
 
-- Vercel: **pendiente de agregar la URL pública del deploy**.
+- Vercel: [https://tp-2-front-end-ifts29.vercel.app/](https://tp-2-front-end-ifts29.vercel.app/).
 
 ## Integrantes
 
